@@ -1,6 +1,5 @@
 #calculates Langmuir Adsorption Isotherm parameters (monolayer capacity, qm and Langmuir constant KL) from data in an excel file (MUST BE PLACED IN THE SAME FOLDER), exports the data to a .csv file for Veusz, then generates a .vsz project file that plots the Langmuir fit with the equation and R^2
 
-
 import numpy as np
 import pandas as pd
 from scipy.stats import linregress
