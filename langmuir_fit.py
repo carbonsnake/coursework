@@ -49,7 +49,7 @@ export_df.to_csv(output_csv, index=False)
 # === Create Veusz Plot ===
 doc = veusz_embed.Embedded("langmuir_plot")
 
-doc.To("root")
+doc.To("/")
 doc.Add("graph", name="langmuir")
 doc.To("langmuir")
 doc.Add("xy", name="data", autoadd=False)
