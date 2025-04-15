@@ -6,7 +6,7 @@ from scipy.stats import linregress
 import veusz.embed as veusz_embed
 import os
 
-# === Settings ===
+# === Settings ===python3
 excel_file = "pp5 data 2025.xlsx"
 sheet_name = "Sheet2"
 output_csv = "langmuir_data.csv"
