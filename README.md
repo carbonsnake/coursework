@@ -1,2 +1,2 @@
-to install required libraries: pip install pandas numpy matplotlib scipy openpyxl
+to install required libraries: pip install pandas numpy matplotlib scipy openpyxl veusz
 
