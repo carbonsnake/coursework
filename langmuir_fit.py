@@ -50,6 +50,8 @@ export_df.to_csv(output_csv, index=False)
 doc = veusz_embed.Embedded("langmuir_plot")
 
 doc.To("/")
+doc.Add("page", name="page1")
+doc.To("page1")
 doc.Add("graph", name="langmuir")
 doc.To("langmuir")
 doc.Add("xy", name="data", autoadd=False)
